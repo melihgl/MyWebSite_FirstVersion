@@ -1,0 +1,21 @@
+#navbar {
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+    height: 80px;
+}
+.content {
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 80px;
+}
+.share {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 80px;
+}
+#about .row .content h3{
+	font-size: 4 rem;
+}
