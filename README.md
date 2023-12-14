@@ -1,6 +1,6 @@
 Web sitemin HTML ve CSS kodlarını paylaşıyorum. Yenilikler yaptıkça Github'da da paylaşacağım. <br/>
 Teşekkürler. Melih Gül
 
-<img align="center" alt="GIF" src="https://gifer.com/embed/JRk5"/>
+<iframe src="https://gifer.com/embed/JRk5" width=480 height=248.276 frameBorder="0" allowFullScreen></iframe><p><a href="https://gifer.com">via GIFER</a></p>
 
 <img align="center" alt="GIF" src="https://private-user-images.githubusercontent.com/74038190/238200428-67f477ed-6624-42da-99f0-1a7b1a16eecb.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDI1MDg3NTMsIm5iZiI6MTcwMjUwODQ1MywicGF0aCI6Ii83NDAzODE5MC8yMzgyMDA0MjgtNjdmNDc3ZWQtNjYyNC00MmRhLTk5ZjAtMWE3YjFhMTZlZWNiLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjEzVDIzMDA1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWM2ZWJmNTE5OGY0ZWNjMTUxNzJiMjkzMDAwOWQ1ZmRlYTkxODk3NGQyZmQwMGNlNmJhODI1NGQxZDZhNzU3NmMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.NJuG3SANKf_gX2NiLghrSqWsWntYIHMnyg-TgSUaik8"/>
