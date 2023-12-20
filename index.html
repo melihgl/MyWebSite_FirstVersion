@@ -1,54 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <title>Melih Gül | Frontend Developer</title>
 	<meta charset="UTF-8" />
 	<meta name="keywords" content="C, HTML, CSS, JavaScript, VB.Net, T-SQL" />
 	<meta name="description" content="Melih Gül | Frontend Developer" />
-	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">	
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css" />
-	
+	<link rel="stylesheet" media="(max-width:600px)" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/contact_form.php" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-hQN/4e4lgt5/6oYvU2RlM0IhQfEN4Iu2XK2r3t+Ul9nYTCMVKD6Tf0ucf0Va5KTjPVa1a8Qo/F9XFk5f79Aq0Q==" crossorigin="anonymous" />	
 </head>
-
 <body>
 	<header class="bg-dark-blue">
         <div class="container">
             <nav id="navbar">
-                <h1 class="heading-small">Melih Gül's Landing Page</h1>
-                    <a href="http://www.arkeomelih.melihgul.com/" target="_blank">Arkeomelih
-                    <a href="http://www.melsefe.melihgul.com/" target="_blank">Melsefe
-                    <a href="http://www.melihbotanik.melihgul.com/" target="_blank">Melih Botany
-                    <a>Astromelih
+                <h1 class="heading">My Web Sites:</h1>
+                    <a href="http://www.arkeomelih.melihgul.com/" target="_blank">Arkeomelih</a>
+                    <a href="http://www.melsefe.melihgul.com/" target="_blank">Melsefe</a>
+                    <a href="http://www.melihbotanik.melihgul.com/" target="_blank">Melih Botany</a>
+                    <a href="http://www.astromelih.melihgul.com/" target="_blank">Astromelih</a>
                 </nav>
         </div>
 	</header>
-
-    <section id = "home">
-        <img src="images/melih_foto.jpg "width=300" 
-             alt="Melih Gül"
-             />
+      <section id = "home">
+    <img id="resim" src="images/melih_foto.jpg" onmouseover="buyut()" onmouseout="kucult()" onclick="degistirResim()">
+    <script>
+    function buyut() {
+    document.getElementById("resim").style.width = "300px"; }
+    function kucult() {
+    document.getElementById("resim").style.width = "250px"; }
+    function degistirResim() {
+    document.getElementById("resim").src = "images/melih_pp.jpg"; }
+    </script>
         <div class="name">
-            <h2 class = "heading-big">Melih Gül </h2>
-            <p>Frontend Developer | Classical Archaeologist</p>
+            <h2 class = "heading">Melih Gül </h2>
+            <p>Frontend Developer (still learning) | Classical Archaeologist</p>
         </div>
-    </section>
-
-    <section id ="about">
+      </section>
+      <section id ="about">
         <div class="row">
             <div class="content">
-                <h3>Who is Melih Gül?</h3>
-                <p>Melih was born in Edirne in October <i>1993</i>. Here is some information about him:</br>
+                <h3>Who Am I?</h3>
+                <p>He was born in Edirne in October <i>1993</i>. Here is some information about him:</br>
                 <br><b><u>Education</u></b>
-                <br><i>2022-…</i> Trakya University, Vocational School of Technical Sciences, Computer Programming.</br> 
-                <i>2018-2022</i> Trakya University, Institute of Social Sciences, Department of Archeology, Master's thesis titled "Stylus in Anatolia from the 1st Millennium BC to the End of the Roman Imperial Period" under the supervision of Prof. Dr. Daniş Baykan (Diploma Date: 22.06.2022 / Diploma Number: 2889).</br> 
-                <i>2017-2021</i> Anadolu University Open Education Faculty Philosophy Department (Diploma Date: 2021 / Diploma Number: 159843).</br> 
-                <i>2011-2017</i> Trakya University Faculty of Letters, Department of Archeology (Diploma Date: 23.06.2017 / Diploma Number: 2017-05-586).</br>  
+                <br><b><i>2022-2025</i></b> Trakya University, Vocational School of Technical Sciences, <b>Computer Programming.</b></br> 
+                <b><i>2018-2022</i></b> Trakya University, Institute of Social Sciences, Department of Archeology, Master's thesis titled <a href="https://dspace.trakya.edu.tr/xmlui/handle/trakya/8176?locale-attribute=en"><b>"Stylus in Anatolia from the 1st Millennium BC to the End of the Roman Imperial Period"</b></a> under the supervision of Prof. Dr. Daniş Baykan (Diploma Date: 22.06.2022 / Diploma Number: 2889).</br> 
+                <b><i>2017-2021</i></b> Anadolu University Open Education Faculty <b>Philosophy Department</b> (Diploma Date: 2021 / Diploma Number: 159843).</br> 
+                <b><i>2011-2017</i></b> Trakya University Faculty of Letters, <b>Department of Archeology</b> (Diploma Date: 23.06.2017 / Diploma Number: 2017-05-586).</br>  
                 <i>2009-2011</i> Ankara Abdullah-Mürşide Özünenek Anatolian High School, Department of Turkish-Mathematics (Diploma Date: 17.06.2011 / Diploma Number: 302).</br>  
                 <i>2007-2009</i> Edirne Yıldırım Beyazıt Anatolian High School, Turkish-Mathematics Department.</br>  
                 <i>2006-2007</i> Ankara Afşin Bey Primary School.</br>  
@@ -60,44 +65,86 @@
                 My favorite subject to learn is the web world / web technology. 
                 Although I am mainly developing myself in the <b>Front End</b> area, I am interested in all areas of the programming discipline. 
                 I continue to learn different languages, technologies, applications.</br> <b>Programming languages I know:</b> 
-                C, HTML/CSS JavaScript (jQuery), T-SQL, VB.Net, VBA.</br>
-                <b>Applications I know:</b> MS Office applications, Photoshop, Canva, FileMaker Pro Advanced, various video editing applications 
+                C, HTML/CSS JavaScript (jQuery), PHP, T-SQL, VB.Net, VBA.</br>
+                <b>Applications I know:</b> MS Office applications, Adobe Photoshop, Adobe Animate, Canva, FileMaker Pro Advanced, various video editing applications 
                 (DaVinci Resolve etc.).</br> 
+                <b>My Project:</b> I'm working on my <a href="https://github.com/melihgl/AkilliTarimOtomasyonu"><b>Smart Agriculture Automation</b></a> project. I am using MS SQL Server and VB.Net in this project. 
+                In the future, I aim to learn different languages and develop projects related to mobile development.
+                Also, another goal of mine is to master the JavaScript language and various libraries / frameworks.</br>
                 <br><u><b>Excavation, Survey and Museum Studies in the Archeology Profession</u></b></br>
                 <i>2020-2022</i> İzmir Torbalı Mount Nif Excavation (Under the direction Doç. Dr. Müjde Peker).</br>
                 <i>2020</i> İzmir Tire Archeology Museum Metal Finds Studies (Under the direction Prof. Dr. Daniş Baykan).</br>
                 <i>2019</i> Niğde Bor Kemerhisar Tyana Ancient City Excavation (Under the direction of Prof. Dr. Osman Doğanay).</br>
                 <i>2018</i> Edirne Merkez Sinanköy Excavation (Under the direction of Prof. Dr. Engin Beksaç).</br>
+                </br><b><u>Project Tasks in the Archeology Profession:</u></b></br>
+                 2020, TÜBAP 2020-48 “Stylus in Anatolia from the 1st Millennium BC to the End of the Roman Imperial Period” (Project Researcher) (16.03.2020-2022) (12.851 TL).</br>
+                </br><b><u>Awards and Scholarships in the Archeology Profession:</b></u></br>
+                 2020, AKMED (Suna & İnan Kıraç Mediterranean Civilizations Research Center) 2020/T.1066 Master's Scholarship (4.000 TL).</br>
+                </br><b><u>Scientific and Professional Organization Memberships in the Archeology Profession:</u></b></br>
+                 Membership of the Association of Archaeologists (04.03.2022-…).</br>
+                </br><b><u>Publications in the Archeology Profession:</b></u></br>
+                Gül, M., <a href="https://dspace.trakya.edu.tr/xmlui/handle/trakya/8176?locale-attribute=en">Stylus in Anatolia from the 1st Millennium BC to the End of the Roman Imperial Period</a>, Trakya University, Social
+                Institute of Sciences, Master Thesis, Department of Archeology (17.05.2019-25.05.2022).</br>
+                Gül, M., <a href="https://dergipark.org.tr/en/download/article-file/2337903">“Stylos Found in the Nif Mountain Excavation”</a>, MASROP E-Magazine 16.1, 2022.</br>
+                Gül, M., <a href="https://arksempozyum-edebiyat.istanbul.edu.tr/tr/content/poster/arkat-19-posterler#title16496074831922">“Stylos in Ancient Age and Stylos Samples from Nif Mountain Excavation Finds”</a>, 19. Istanbul University
+                Faculty of Letters Archaeological Excavations and Research Meeting, poster presentation, Istanbul, 2022.</br>
+                Gül, M., <a href="https://cdn.istanbul.edu.tr/FileHandler2.ashx?f=arkat-19-bildiri-ozetleri.pdf">“Stylos in Ancient Age and Stylos Samples from Nif Mountain Excavation Finds”</a>, 19. Istanbul University
+                Faculty of Letters Archaeological Excavations and Research Meeting, oral presentation, Istanbul, 2022.</br>
+                </br><b><u>Duties of Symposiums, Workshops and Conferences in the Archeology Profession:</b></u></br>
+                2019, 23rd International Medieval and Turkish Period Excavations and Art History Research Symposium.</br>
                 <br><u><b>Hobbies</u></b>
                 <br>I am interested in the disciplines of botany and astronomy as a hobby. Apart from these two, 
                 I am interested in every aspect of life. I am far from a view that the sciences are separated from each other by sharp boundaries. 
                 I continue to learn and enjoy everything I am curious about.</br></p>
                 </div>
-            </div>
-    </section>
- 
-    <section class="footer">
+             </div>
+       </section>
+       <section class="footer">
         <div class="row">
-            <iframe 
-            class="map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d745.2038240689805!2d26.596390463913746!3d41.65973256119311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b32ffa0d4b4dbb%3A0x5d93b53f068fddcc!2sEsentepe%20Sitesi%20C%20Blok!5e0!3m2!1str!2str!4v1688138918236!5m2!1str!2str" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form method="post" action="php/contact_form.php">
+            Your name: <input type="text" name="isim" required><br>
+            E-Mail Address: <input type="email" name="email" required><br>
+            Your message: <textarea name="mesaj" rows="5" required></textarea><br>
+            <input type="submit" value="Send">
+            </form>
         </div>
-
+        <div class="row">
+                <iframe 
+                class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d745.2038240689805!2d26.596390463913746!3d41.65973256119311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b32ffa0d4b4dbb%3A0x5d93b53f068fddcc!2sEsentepe%20Sitesi%20C%20Blok!5e0!3m2!1str!2str!4v1688138918236!5m2!1str!2str" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
         <div class="share">
-            <a href="https://www.facebook.com/melihsonsurum/" target="_blank" class="fab fa-facebook"> &nbsp;</a>
-            <a href="https://twitter.com/melih_son_surum/" target="_blank" class="fab fa-twitter"> &nbsp;</a>
-            <a href="https://www.instagram.com/melih_son_surum/" target="_blank" class="fab fa-instagram"> &nbsp;</a>
+            <a href="https://www.facebook.com/melihRosaceae" target="_blank" class="fab fa-facebook"> &nbsp;</a>
+            <a href="https://twitter.com/melih_botanik" target="_blank" class="fab fa-twitter"> &nbsp;</a>
+            <a href="https://www.instagram.com/melihrosaceae/" target="_blank" class="fab fa-instagram"> &nbsp;</a>
             <a href="https://github.com/melihgl" target="_blank" class="fab fa-github"> &nbsp;</a>
             <a href="https://www.linkedin.com/in/melihgul/" target="_blank" class="fab fa-linkedin"> &nbsp;</a>
-            <a href="https://www.youtube.com/channel/UCp9UxYLciWzpOAE6pUnnJVQ" target="_blank" class="fab fa-youtube"> &nbsp;</a>
-            <a href="https://open.spotify.com/user/212tjmjgt2ezv6yay7e7bvhea" target="_blank" class="fab fa-spotify"> &nbsp;</a>
-            <a href="https://www.reddit.com/user/MelihGul22" target="_blank" class="fab fa-reddit"> &nbsp;</a>
             <a href="https://medium.com/@melihgul" target="_blank" class="fab fa-medium"> &nbsp;</a>
             <a href="https://www.producthunt.com/@melih_son_surum" target="_blank" class="fab fa-product-hunt"> &nbsp;</a>
-            
-            
-            
+            <a href="https://www.youtube.com/@melih_gul" target="_blank" class="fab fa-youtube"> &nbsp;</a>
+            <a href="https://open.spotify.com/user/212tjmjgt2ezv6yay7e7bvhea" target="_blank" class="fab fa-spotify"> &nbsp;</a>
+            <a href="https://www.reddit.com/user/MelihGul22" target="_blank" class="fab fa-reddit"> &nbsp;</a>  
         </div>
     </section>
+    <button onclick="sayfaBasinaDon()">
+        <i class="fas fa-arrow-up"></i> Yukarı Çık
+    </button>  
+    <script>
+        function sayfaBasinaDon() {
+            document.body.scrollTop = 0; // Safari
+            document.documentElement.scrollTop = 0; // Diğer tarayıcılar 
+        }
+    </script>
+    <p id="tarihSaat"></p>
+    <script>
+        function tarihSaatGuncelle() {
+            var tarihSaatElementi = document.getElementById("tarihSaat");
+            var simdi = new Date();
+            var tarihSaat = simdi.toLocaleString();
+            tarihSaatElementi.innerHTML = tarihSaat;
+        }   
+        setInterval(tarihSaatGuncelle, 1000); // 1 saniyede bir güncelle
+        tarihSaatGuncelle(); // Sayfa yüklendiğinde hemen güncelle
+    </script>
 </body>
 </html>
