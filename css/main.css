@@ -7,14 +7,8 @@ body {
 .text-center {
 	text-align center;
 }
-.heading-small {
+.heading {
 	font-size: 1.25rem;
-}
-.heading-medium {
-	font-size: 1.5rem;
-}
-.heading-big {
-	font-size: 1.75rem;
 }
 .bg-dark-blue {
 	background: #2e3e71;
@@ -55,11 +49,11 @@ a { text-decoration: none;
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    border-bottom: 1px solid grey;
+    border-bottom: 3px solid grey;
     color: black;
 }
 #home img {
-    max-width: 100%;
+    max-width: 300px;
     height: auto;
     border-radius: 100%;
 }
@@ -98,6 +92,51 @@ a { text-decoration: none;
     margin-right: 5rem;
     margin-bottom: 3rem;
 } 
+#about .row a {
+	color: red;
+}
+#about .row a:hover {
+    color: rgb(224, 102, 102);
+	opacity: 0.4;
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #2e3e71;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #336ea2;
+}
 .footer{
     background-color: black;
     text-align: center;
@@ -118,9 +157,37 @@ a { text-decoration: none;
     padding-bottom: 2.5rem;
 }
 .footer .share a{
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 .footer .share a:hover{
     background-color: black;
     opacity: 0.4;
+}
+button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #2e3e71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+button i {
+    margin-right: 5px; 
+}
+button:hover i {
+    color: #ff9900; 
+}
+#tarihSaat {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
 }
